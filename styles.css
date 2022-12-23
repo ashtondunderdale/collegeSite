@@ -5,24 +5,25 @@ html{
 p{
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 360px;
+    margin-left: 257px;
+
 }
 
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 360px;
+    margin-left: 257px;
 }
 
 hr{
-    margin-left: 347px;
-    margin-right: 347px;
+    margin-left: 257px;
+    margin-right: 257px;
 }
 
 .homeimage{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 650px;
+    height: 750px;
 
 }
 
@@ -31,8 +32,8 @@ hr{
     margin-right: auto;
     display: block;
     margin-top: 10px;
-    margin-left: 346px;
-    width: 100px;
+    margin-left: 257px;
+    width: 120px;
 }
 
 
