@@ -16,7 +16,7 @@
         <li><h4></h4></li>
         <li><a href="/new_site/index.html">Home</a></li>
         <li><a href="/new_site/aboutUs.html">About Us</a></li>
-        <li><a class="active" href="/new_site/support.html">Support</a></li>
+        <li><a class="active" href="/new_site/support.html">Contact</a></li>
       </ul>
     </nav>
     <div class="main-box">
@@ -43,12 +43,13 @@
 
         </p>
         <div style="text-align: center">
-        <p>Enter your details below if you have an queries</p>   
+        <p>Enter your details below if you have an queries</p>  
+
       </div>
       <div class="row">
         <div class="column"></div>
         <div class="column">
-          <form action="/action_page.php">
+          <form action="/new_site/support.html">
             <label for="fname">First Name</label>
             <input
               type="text"
@@ -83,7 +84,17 @@
               placeholder="Write something.."
               style="height: 170px"
             ></textarea>
-            <input type="submit" value="Submit" />
+
+                <script type="text/javascript">
+                    function showMessage() {
+                        alert("Your query has been recieved, you will hear back from us shortly.");
+                    }
+                </script>
+                <center>
+                    <input type="submit" value="Submit"
+                    value="Click Me!" onClick="showMessage()" />
+                    
+                </center>
           </form>
           <br />
           <p>Copyright © 2023 Burnley College</p>
